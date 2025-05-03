@@ -19,17 +19,17 @@
 
     <div id="login">
 
-        <div class="caixa">
+        <form class="caixa">
             
             <img src="img/Vc.png" alt="">
             <h1>LOGIN</h1>
 
             <div class="email">
-                <input type="email" placeholder="E-mail">
+                <input type="email" name="email" placeholder="E-mail">
             </div>
 
             <div class="senha">
-                <input type="password" placeholder="Senha">
+                <input type="password" name="password" required minlength="8" placeholder="Senha">
             </div>
 
             <div class="entrar">
@@ -37,10 +37,9 @@
                 <input type="submit" value="Entrar">
             </div>
 
-        </div>
+        </form>
 
     </div>
-    
 </body>
-
+<script src="/Tela_Login/index.js"></script>
 </html>
