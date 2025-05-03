@@ -57,9 +57,10 @@ header {
 .Meio {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 1rem 5rem 1rem; 
+    padding: 0 1rem 5rem 1rem;
     line-height: 4rem;
 }
+
 .Meio h1 {
     font-size: 4rem;
 }
