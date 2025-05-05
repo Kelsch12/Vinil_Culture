@@ -22,7 +22,7 @@ header {
     transition: all .35s ease;
     background-color: #fff;
     padding: 14px 14%;
-    margin-bottom: 0; /* Garante que o cabeçalho não tenha margem inferior */
+    margin-bottom: 0;
 }
 
 .comprar-disco {
@@ -32,44 +32,63 @@ header {
   
   .container-disco {
     display: flex;
-    gap: 40px;
+    gap: 0;
     align-items: flex-start;
+    position: relative;
+    width: 100%;
+  }
+  
+  .container-disco::before {
+    content: none;
   }
   
   .coluna-esquerda {
     flex: 1;
-    max-width: 400px;
+    width: 50%; 
+    max-width: 50%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .capa-album {
-    width: 100%; /* Define a largura como 100% do contêiner */
-    max-width: 400px; /* Define um tamanho máximo */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 700px;
+    height: 600px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .coluna-direita {
-    flex: 2;
+    flex: 1;
+    width: 50%; 
+    max-width: 50%;
+    padding-left: 20px; 
     display: flex;
     flex-direction: column;
+    justify-content: center; 
     gap: 12px;
+    color: #5b7383; 
   }
 
   .coluna-direita h2 {
-    font-size: 2.5rem; /* Aumenta o tamanho da fonte */
-    text-align: left;  /* Alinha o texto à esquerda */
-    padding: 0;       /* Remove o padding existente, se necessário */
-    margin-bottom: 1rem; /* Adiciona um espaçamento inferior */
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .coluna-direita h3 {
+    font-size: 3rem;
+    text-align: left;
   }
   
   
   .btn-comprar {
-    padding: 12px 20px;
+    padding: 20px 20px;
     background-color: #5b7383;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s;
   }
@@ -79,8 +98,9 @@ header {
   }
 
 .btn-alterar-imagem {
+    align-self: flex-start;
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 8px 16px;
     background-color: #5b7383;
     color: white;
     border: none;
@@ -218,7 +238,6 @@ section h1 {
 }
 
 
-/* Parte Superio - Barra de Pesquisa e Icones */
 
 top-header {
     display: flex;
@@ -340,8 +359,8 @@ top-header {
 }
 
 main {
-    margin-top: 0; /* Remove qualquer margem superior do elemento principal */
-    padding-top: 140px; /* Mantém o espaçamento necessário para o conteúdo */
+    margin-top: 0;
+    padding-top: 140px;
 }
 
 .link-instagram {

@@ -46,18 +46,21 @@
             <div class="container-disco">
               <!-- Coluna Esquerda: Imagem do Álbum -->
               <div class="coluna-esquerda">
-                <img src="img/img/graduation.webp" alt="Capa do Álbum" class="capa-album" id="album-image">
+                <img src="img\img/dookie.jpg" alt="Capa do Álbum" class="capa-album" id="album-image">
                 <button class="btn-alterar-imagem" onclick="alterarImagem()">Alterar Imagem</button>
               </div>
               <!-- Coluna Direita: Informações do Produto -->
               <div class="coluna-direita">
-                <h2>Graduation</h2>
-                <p><strong>Artista:</strong> Kanye West</p>
-                <p><strong>Gênero:</strong> Rap</p>
-                <p><strong>Ano:</strong> 2007</p>
-                <p><strong>Preço:</strong> R$360</p>
+                <h2>Dookie - Green Day</h2>
+                <h3><strong>R$470</strong></h3>
           
-                <button class="btn-comprar">Adicionar ao Carrinho</button>
+                <button class="btn-comprar" href="#carrinho">Adicionar ao Carrinho</button>
+
+                <p><br><strong>Artista:</strong> Green Day</p>
+                <p><strong>Gênero:</strong> Rock</p>
+                <p><strong>Ano:</strong> 1994</p>
+                <p><strong>Descrição:</strong><br><i>Dookie</i> é puro combustível adolescente: rápido, direto, sarcástico e explosivo. O Green Day conseguiu canalizar angústia, tédio e rebeldia em hinos punk pop que marcaram uma geração. Com refrões viciantes e letras que falam das inseguranças e frustrações do dia a dia com humor ácido, o disco conquistou milhões e redefiniu o punk para os novos tempos. É aquele tipo de vinil que parece nunca envelhecer — sempre pronto para ser gritado no volume máximo.</p>
+
               </div>
             </div>
           </main>
@@ -95,10 +98,10 @@
             function alterarImagem() {
                 const imgElement = document.getElementById('album-image');
                 if (imagemAtual === 1) {
-                    imgElement.src = "img/img/graduation-back.jpg"; // Substitua pelo caminho da segunda imagem
+                    imgElement.src = "img/img/dookie-back.webp";
                     imagemAtual = 2;
                 } else {
-                    imgElement.src = 'img/img/graduation.webp'; // Caminho da imagem original
+                    imgElement.src = "img/img/dookie.jpg";
                     imagemAtual = 1;
                 }
             }
