@@ -85,12 +85,12 @@ input:focus {
 }
 
 .caixa {
-    border: 2px solid #ccc;            
-    border-radius: 10px;                
-    padding: 40px 30px;                
-    width: 390px;                       
-    margin: 170px auto;                 
-    background-color: #fff;            
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 40px 30px;
+    width: 390px;
+    margin: 170px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
+}

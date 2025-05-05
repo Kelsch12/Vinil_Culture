@@ -1,5 +1,4 @@
 .background {
-    background-image: url(img/backk.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -23,6 +22,95 @@ header {
     transition: all .35s ease;
     background-color: #fff;
     padding: 14px 14%;
+    margin-bottom: 0;
+}
+
+.comprar-disco {
+    padding: 40px;
+    background-color: #fafafa;
+  }
+  
+  .container-disco {
+    display: flex;
+    gap: 0;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+  }
+  
+  .container-disco::before {
+    content: none;
+  }
+  
+  .coluna-esquerda {
+    flex: 1;
+    width: 50%; 
+    max-width: 50%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .capa-album {
+    width: 700px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coluna-direita {
+    flex: 1;
+    width: 50%; 
+    max-width: 50%;
+    padding-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 12px;
+    color: #5b7383; 
+  }
+
+  .coluna-direita h2 {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .coluna-direita h3 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  
+  
+  .btn-comprar {
+    padding: 20px 20px;
+    background-color: #5b7383;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #444;
+  }
+
+.btn-alterar-imagem {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #5b7383;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-alterar-imagem:hover {
+    background-color: #444;
 }
 
 .logo {
@@ -93,62 +181,14 @@ section h1 {
 
 }
 
-.C_rap {
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
 
-}
-
-.C_rap img:hover {
-    transform: scale(0.9) translateY(-5px);
-    cursor: pointer;
-    transition: 0.3s;
-
-}
-
-.rap img {
+.album-cover {
     width: 250px;
     height: auto;
 }
 
-.rap {
-    background-color: #5b7383;
-    color: #ffffff;
-}
 
-.C_rock {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
-
-}
-
-.C_rock img:hover {
-    transform: scale(0.9) translateY(-5px);
-    cursor: pointer;
-    transition: 0.3s;
-
-}
-
-.rock img {
-    width: 250px;
-    height: auto;
-}
-
-.rock {
-    background-color: #5b7383;
-    color: #ffffff;
-}
 
 .Marcas {
     margin-top: 10rem;
@@ -198,7 +238,6 @@ section h1 {
 }
 
 
-/* Parte Superio - Barra de Pesquisa e Icones */
 
 top-header {
     display: flex;
@@ -320,7 +359,8 @@ top-header {
 }
 
 main {
-    margin-top: 140px;
+    margin-top: 0;
+    padding-top: 140px;
 }
 
 .link-instagram {
