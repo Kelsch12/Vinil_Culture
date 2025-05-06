@@ -55,7 +55,7 @@ header {
   
   .capa-album {
     width: 700px;
-    height: 600px;
+    height: 700px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -99,14 +99,15 @@ header {
 
 .btn-alterar-imagem {
     align-self: flex-start;
-    margin-top: 10px;
-    padding: 8px 16px;
+    margin-top: 20px;
+    padding: 10px 320px; 
     background-color: #5b7383;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.3s;
+    text-align: left;
 }
 
 .btn-alterar-imagem:hover {
