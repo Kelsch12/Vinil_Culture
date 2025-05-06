@@ -39,8 +39,28 @@
         <div class="menu-bar">
             <img class="logo">
             <ul>
-                <li><a href="#">GÊNEROS</a></li>
-                <li><a href="#">ARTISTAS</a></li>
+                <li>
+                    <a href="#" id="btn-generos">GÊNEROS</a>
+                    <ul id="submenu-generos" class="submenu">
+                        <li><a href="#rap">Rap</a></li>
+                        <li><a href="#rock">Rock</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" id="btn-artistas">ARTISTAS</a>
+                    <ul id="submenu-artistas" class="submenu">
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/graduation.html">Kanye West</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/rodeo.html">Travis Scott</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/gkmc.html">Kendrick Lamar</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/takecare.html">Drake</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/mmlp.html">Eminem</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/dk.html">Pink Floyd</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/sa.html">Red Hot Chili Peppers</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/ab.html">The Beatles</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/dr.html">Dire Straits</a></li>
+                        <li><a href="http://127.0.0.1:5500/Comprar_disco/dookie.html">Green Day</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">PROMOÇÕES</a></li>
             </ul>
         </div>
@@ -55,7 +75,7 @@
     </div><!--text-cta-->
     </section><!--cta-->
 
-    <section>
+    <section id="rap">
         <h1 style="color: #5b7383;">HIP-HOP/ RAP</h1>
         <div class="C_rap">
             <div class="rap">
@@ -108,89 +128,116 @@
                 <ion-icon name="cart-outline"></ion-icon>
             </div><!--rap-->
         </div><!--c_rap-->
-        <section id="rock">
-            <section>
-                <h1 style="color: #5b7383;">ROCK</h1>
-                <div class="C_rock">
-                    <div class="rock">
-                        <a href="http://127.0.0.1:5500/Comprar_disco/dk.html">
-                            <img src="img/dk.jpg" alt="">
-                        </a>
-                        <p>The Dark Side of the Moon</p>
-                        <p> Pink Floyd</p>
-                        <h5>R$450</h5>
-                        <ion-icon name="cart-outline"></ion-icon>
-                    </div><!--rock-->
+    </section>
+
+    <section id="rock">
+        <h1 style="color: #5b7383;">ROCK</h1>
+        <div class="C_rock">
+            <div class="rock">
+                <a href="http://127.0.0.1:5500/Comprar_disco/dk.html">
+                    <img src="img/dk.jpg" alt="">
+                </a>
+                <p>The Dark Side of the Moon</p>
+                <p> Pink Floyd</p>
+                <h5>R$450</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+            </div><!--rock-->
 
 
-                    <div class="rock">
-                        <a href="http://127.0.0.1:5500/Comprar_disco/sa.html">
-                            <img src="img/sa.jpg" alt="">
-                        </a>
-                        <p>Stadium Arcadium</p>
-                        <p>Red Hot Chili Peppers</p>
-                        <h5>R$440</h5>
-                        <span><ion-icon name="cart-outline"></ion-icon></span>
-                    </div><!--rock-->
+            <div class="rock">
+                <a href="http://127.0.0.1:5500/Comprar_disco/sa.html">
+                    <img src="img/sa.jpg" alt="">
+                </a>
+                <p>Stadium Arcadium</p>
+                <p>Red Hot Chili Peppers</p>
+                <h5>R$440</h5>
+                <span><ion-icon name="cart-outline"></ion-icon></span>
+            </div><!--rock-->
 
-                    <div class="rock">
-                        <a href="http://127.0.0.1:5500/Comprar_disco/ab.html">
-                            <img src="img/ab.jpg" alt="">
-                        </a>
-                        <p>Abbey Road</p>
-                        <p>The Beatles</p>
-                        <h5>R$480</h5>
-                        <ion-icon name="cart-outline"></ion-icon>
-                    </div><!--rock-->
+            <div class="rock">
+                <a href="http://127.0.0.1:5500/Comprar_disco/ab.html">
+                    <img src="img/ab.jpg" alt="">
+                </a>
+                <p>Abbey Road</p>
+                <p>The Beatles</p>
+                <h5>R$480</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+            </div><!--rock-->
 
-                    <div class="rock">
-                        <a href="http://127.0.0.1:5500/Comprar_disco/dr.html">
-                            <img src="img/dr.webp" alt="">
-                        </a>
-                        <p>Dire Straits</p>
-                        <p>Dire Straits</p>
-                        <h5>R$450</h5><ion-icon name="cart-outline"></ion-icon>
-                    </div><!--rock-->
+            <div class="rock">
+                <a href="http://127.0.0.1:5500/Comprar_disco/dr.html">
+                    <img src="img/dr.webp" alt="">
+                </a>
+                <p>Dire Straits</p>
+                <p>Dire Straits</p>
+                <h5>R$450</h5><ion-icon name="cart-outline"></ion-icon>
+            </div><!--rock-->
 
-                    <div class="rap">
-                        <a href="http://127.0.0.1:5500/Comprar_disco/dookie.html">
-                            <img src="img/dookie.jpg" alt="">
-                        </a>
-                        <p>Dookie</p>
-                        <p>Green Day</p>
-                        <h5>R$470</h5>
-                        <ion-icon name="cart-outline"></ion-icon>
-                    </div><!--rock-->
-                </div><!--c_rock-->
+            <div class="rap">
+                <a href="http://127.0.0.1:5500/Comprar_disco/dookie.html">
+                    <img src="img/dookie.jpg" alt="">
+                </a>
+                <p>Dookie</p>
+                <p>Green Day</p>
+                <h5>R$470</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+            </div><!--rock-->
+        </div><!--c_rock-->
+    </section>
 
-                <section class="Contato" id="Contato">
-                    <div class="meio-contato">
-                        <h3>Contato</h3>
-                        <a href="https://www.instagram.com/gpbmulletss/" target="_blank" class="link-instagram">
-                            Nos envie uma mensagem
-                        </a>
-                    </div>
-                    </div>
+    <section class="Contato" id="Contato">
+        <div class="meio-contato">
+            <h3>Contato</h3>
+            <a href="https://www.instagram.com/gpbmulletss/" target="_blank" class="link-instagram">
+                Nos envie uma mensagem
+            </a>
+        </div>
+        </div>
 
-                    <div class="meio-contato">
-                        <h3>Explorar</h3>
-                        <li><a href="http://127.0.0.1:5500/Home/index.html">Início</a></li>
-                        <li><a href="http://127.0.0.1:5500/Tela_Login/login.html">Entrar</a></li>
-                        <li><a href="#carrinho">Carrinho</a></li>
-                    </div>
+        <div class="meio-contato">
+            <h3>Explorar</h3>
+            <li><a href="http://127.0.0.1:5500/Home/index.html">Início</a></li>
+            <li><a href="http://127.0.0.1:5500/Tela_Login/login.html">Entrar</a></li>
+            <li><a href="#carrinho">Carrinho</a></li>
+        </div>
 
-                    <div class="meio-contato">
-                        <h3>Shopping</h3>
-                        <li><a href="#">Gêneros</a></li>
-                        <li><a href="#">Artistas</a></li>
-                        <li><a href="#">Promoções</a></li>
-                    </div>
+        <div class="meio-contato">
+            <h3>Shopping</h3>
+            <li><a href="#">Gêneros</a></li>
+            <li><a href="#">Artistas</a></li>
+            <li><a href="#">Promoções</a></li>
+        </div>
 
-                </section>
-                </main>
-                <script src="https://unpkg.com/scrollreveal"></script>
-                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </section>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const btnGeneros = document.getElementById('btn-generos');
+        const submenuGeneros = document.getElementById('submenu-generos');
+        const btnArtistas = document.getElementById('btn-artistas');
+        const submenuArtistas = document.getElementById('submenu-artistas');
+
+        btnGeneros.addEventListener('click', (event) => {
+            event.preventDefault();
+            submenuGeneros.style.display = submenuGeneros.style.display === 'block' ? 'none' : 'block';
+        });
+
+        btnArtistas.addEventListener('click', (event) => {
+            event.preventDefault(); 
+            submenuArtistas.style.display = submenuArtistas.style.display === 'block' ? 'none' : 'block';
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!btnGeneros.contains(event.target) && !submenuGeneros.contains(event.target)) {
+                submenuGeneros.style.display = 'none';
+            }
+            if (!btnArtistas.contains(event.target) && !submenuArtistas.contains(event.target)) {
+                submenuArtistas.style.display = 'none';
+            }
+        });
+    </script>
 
 </body>
 
