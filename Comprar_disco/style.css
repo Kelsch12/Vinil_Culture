@@ -359,6 +359,30 @@ top-header {
     text-decoration: underline;
 }
 
+.submenu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5b7383;
+    position: absolute;
+    z-index: 1000;
+}
+
+.submenu li {
+    padding: 10px;
+}
+
+.submenu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.submenu li a:hover {
+    text-decoration: underline;
+}
+
 main {
     margin-top: 0;
     padding-top: 140px;
