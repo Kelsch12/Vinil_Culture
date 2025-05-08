@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -32,6 +32,7 @@
                     <a href="http://127.0.0.1:5500/Tela_Login/cadastro.html">
                         <ion-icon class="icon-person" name="person-outline"></ion-icon>
                     </a>
+                    <a href="/Carrinho/cart.html">
                     <ion-icon class="icon-cart" name="cart-outline"></ion-icon>
                     </a>
             </header>
@@ -61,17 +62,14 @@
                         <li><a href="/Comprar_disco/dookie.html">Green Day</a></li>
                     </ul>
                 </li>
-                <li><a href="#">PROMOÇÕES</a></li>
+                <li><a href="https://www.instagram.com/gpbmulletss/">CONTATO</a></li>
             </ul>
         </div>
         <main>
             <div class="Meio">
-                <h1 style="color: #5b7383" ;>CLÁSSICOS QUE <br> NUNCA SAEM DE MODA</h1>
-                <a href="#rock">
-                    <button>Conferir</button>
-                </a>
-            </div><!--background-->
-
+  <h1>CLÁSSICOS QUE <br> NUNCA SAEM DE MODA</h1>
+  <a href="#rock"><button>Conferir</button></a>
+</div>
     </div><!--text-cta-->
     </section><!--cta-->
 
@@ -198,14 +196,13 @@
             <h3>Explorar</h3>
             <li><a href="http://127.0.0.1:5500/Home/index.html">Início</a></li>
             <li><a href="http://127.0.0.1:5500/Tela_Login/login.html">Entrar</a></li>
-            <li><a href="#carrinho">Carrinho</a></li>
         </div>
 
         <div class="meio-contato">
             <h3>Shopping</h3>
-            <li><a href="#">Gêneros</a></li>
-            <li><a href="#">Artistas</a></li>
-            <li><a href="#">Promoções</a></li>
+            <li><a href="#" id="footer-generos">Gêneros</a></li>
+            <li><a href="#" id="footer-artistas">Artistas</a></li>
+            <li><a href="/Carrinho/cart.html">Carrinho</a></li>
         </div>
 
     </section>
@@ -218,6 +215,9 @@
         const submenuGeneros = document.getElementById('submenu-generos');
         const btnArtistas = document.getElementById('btn-artistas');
         const submenuArtistas = document.getElementById('submenu-artistas');
+
+	submenuGeneros.style.display = 'none';
+	submenuArtistas.style.display = 'none';
 
         btnGeneros.addEventListener('click', (event) => {
             event.preventDefault();
@@ -236,7 +236,34 @@
             if (!btnArtistas.contains(event.target) && !submenuArtistas.contains(event.target)) {
                 submenuArtistas.style.display = 'none';
             }
+
+            document.getElementById('footer-artistas').addEventListener('click', (event) => {
+    event.preventDefault();
+    
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    
+    setTimeout(() => {
+        submenuArtistas.style.display = 'block';
+    }, 500);
+});
         });
+
+        document.getElementById('footer-generos').addEventListener('click', (event) => {
+    event.preventDefault();
+    
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+    
+    setTimeout(() => {
+        submenuGeneros.style.display = 'block';
+    }, 500);
+});
+
     </script>
 
 </body>
