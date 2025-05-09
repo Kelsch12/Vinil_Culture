@@ -1,0 +1,376 @@
+.background {
+    background-image: url(img/backk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 60vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #fff;
+    padding: 14px 14%;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a {
+    color: #5b7383;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover {
+    color: #5b7383;
+}
+
+.icon span {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon span:hover {
+    color: #5b7383;
+}
+
+.Meio {
+    position: relative;
+    top: 30%;
+    left: 10%; /* aumente de 5% para 10% ou mais, conforme preferir */
+    transform: translateY(-30%);
+    color: #5b7383;
+    line-height: 4rem;
+}
+
+.Meio h1 {
+    font-size: 4rem;
+}
+
+.Meio button {
+    margin-top: 1rem;
+    background-color: #5b7383;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Meio button:hover {
+    background-color: #879fb1;
+    transform: scale(1.05);
+}
+  
+  /* Ajuste fino para telas pequenas */
+  @media (max-width: 768px) {
+    .Meio {
+      padding: 0 1rem 3rem 1rem;
+    }
+  
+    .Meio h1 {
+      line-height: 1.3;
+    }
+  
+    .Meio button {
+      margin-top: 1rem;
+    }
+  }
+
+section {
+    padding-top: 5rem;
+}
+
+section h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.C_rap {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.C_rap img:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.rap img {
+    width: 250px;
+    height: auto;
+}
+
+.rap {
+    background-color: #5b7383;
+    color: #ffffff;
+}
+
+.C_rock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.C_rock img:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.rock img {
+    width: 250px;
+    height: auto;
+}
+
+.rock {
+    background-color: #5b7383;
+    color: #ffffff;
+}
+
+.Marcas {
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.Marcas img {
+    width: 180px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+#Contato {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #5b7383;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.meio-contato li {
+    margin-bottom: 15px;
+}
+
+.meio-contato li a {
+    display: block;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+
+/* Parte Superio - Barra de Pesquisa e Icones */
+
+top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 5%;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 90px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0ecf7;
+    padding: 8px 12px;
+    border-radius: 20px;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 2rem;
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    margin: 0 8px;
+    flex: 1;
+    font-size: 0.95rem;
+    color: #5b7383;
+}
+
+.search-bar .icon-search:hover {
+    transform: scale(1.2);
+}
+
+.icon-search,
+.header-icons ion-icon {
+    color: #5b7383;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.header-icons ion-icon {
+    transition: transform 0.3s;
+    font-size: 2rem;
+}
+
+.header-icons .icon-person:hover {
+    transform: scale(1.2);
+}
+
+.header-icons .icon-cart:hover {
+    transform: scale(1.2);
+}
+
+.menu-bar {
+    background-color: #5b7383;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-bar {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5b7383;
+    z-index: 999;
+    padding: 30px 0;
+}
+
+.menu-bar .logo {
+    height: 110px;
+    object-fit: contain;
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar a {
+    color: white;
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.menu-bar a:hover {
+    text-decoration: underline;
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5b7383;
+    position: absolute;
+    z-index: 1000;
+}
+
+.submenu li {
+    padding: 10px;
+}
+
+.submenu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.submenu li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 140px;
+}
+
+.link-instagram {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.link-instagram:hover {
+    transform: scale(1.2);
+}

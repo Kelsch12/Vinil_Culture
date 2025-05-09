@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Vinil Culture</title>
+    <link rel="shortcut icon" href="/Comprar_disco/img/img/Vc.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="background">
+            <header class="top-header">
+                <div class="logo">
+                    <a href="http://127.0.0.1:5500/Home/index.html">
+                        <img src="img/img/Vc.png" alt="Logo Vinil Culture">
+                    </a>
+                </div>
+
+                <div class="search-bar">
+                    <input type="text" placeholder="O que você procura?">
+                    <ion-icon name="search-outline" class="icon-search"></ion-icon>
+                </div>
+
+                <div class="header-icons">
+                    <a href="http://127.0.0.1:5500/Tela_Login/cadastro.html">
+                    <a href="/Tela_Login/login.html">
+                        <ion-icon class="icon-person" name="person-outline"></ion-icon>
+                    </a>
+                    <a href="/Carrinho/cart.html">
+                        <ion-icon class="icon-cart" name="cart-outline"></ion-icon>
+                    </a>
+                </div>
+            </header>
+            <div class="menu-bar">
+                <img class="logo">
+                <ul>
+                    <li>
+                        <a href="#" id="btn-generos">GÊNEROS</a>
+                        <ul id="submenu-generos" class="submenu">
+                            <li><a href="/Home/index.html#rap">Rap</a></li>
+                            <li><a href="/Home/index.html#rock">Rock</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" id="btn-artistas">ARTISTAS</a>
+                        <ul id="submenu-artistas" class="submenu">
+                            <li><a href="/Comprar_disco/graduation.html">Kanye West</a></li>
+                            <li><a href="/Comprar_disco/rodeo.html">Travis Scott</a></li>
+                            <li><a href="/Comprar_disco/gkmc.html">Kendrick Lamar</a></li>
+                            <li><a href="/Comprar_disco/takecare.html">Drake</a></li>
+                            <li><a href="/Comprar_disco/mmlp.html">Eminem</a></li>
+                            <li><a href="/Comprar_disco/dk.html">Pink Floyd</a></li>
+                            <li><a href="/Comprar_disco/sa.html">Red Hot Chili Peppers</a></li>
+                            <li><a href="/Comprar_disco/ab.html">The Beatles</a></li>
+                            <li><a href="/Comprar_disco/dr.html">Dire Straits</a></li>
+                            <li><a href="/Comprar_disco/dookie.html">Green Day</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.instagram.com/gpbmulletss/">CONTATO</a></li>
+                </ul>
+            </div>
+
+        <main class="comprar-disco">
+            <div class="container-disco">
+              <!-- Coluna Esquerda: Imagem do Álbum -->
+              <div class="coluna-esquerda">
+                <img src="img\img/mmlp.jpg" alt="Capa do Álbum" class="capa-album" id="album-image">
+                <button class="btn-alterar-imagem" onclick="alterarImagem()">Alternar Imagem</button>
+              </div>
+              <!-- Coluna Direita: Informações do Produto -->
+              <div class="coluna-direita">
+                <h2>The Marshall Mathers LP - Eminem</h2>
+                <h3><strong>R$420</strong></h3>
+          
+                <button class="btn-comprar" href="#carrinho">Adicionar ao Carrinho</button>
+
+                <p><br><strong>Artista:</strong> Eminem</p>
+                <p><strong>Gênero:</strong> Rap</p>
+                <p><strong>Ano:</strong> 2000</p>
+                <p><strong>Descrição:</strong><br>Este álbum colocou Eminem no panteão dos maiores rappers de todos os tempos. Com letras provocativas, humor ácido e uma intensidade crua, The Marshall Mathers LP capturou a atenção do mundo e abriu debates sobre censura, identidade e trauma. "The Real Slim Shady", "Stan" e "The Way I Am" são apenas alguns dos destaques de um disco que marcou o rap como um território de expressão sem limites. Eminem transformou controvérsia em arte com maestria.</p>
+                <p><strong>Tracklist: <br></strong>Public Service Announcement 2000 <br> Kill You <br> Stan (feat. Dido) <br> Paul - Skit <br> Who Knew <br> Steve Berman (feat. Steve Berman) <br> The Way I Am <br> The Real Slim Shady <br> Remember Me? <br> I'm Back <br> Marshall Mathers <br> Ken Kaniff - Skit <br> Drug Ballad <br> Amityville <br> Bitch Please (feat. Dr. Dre, Snoop Dogg, Xzibit, Nate Dogg) <br> Kim <br> Under the Influence (feat. D12) <br>
+              </div>
+            </div>
+
+            <div class="secao-avaliacoes">
+                <h2>Avaliações</h2>
+               
+                <div class="avaliacao-item">
+                    <div class="avaliacao-topo">
+                        <span class="avaliacao-nome">Rafael Couto</span>
+                        <div class="avaliacao-estrelas">★★★★★</div>
+                    </div>
+                    <p class="avaliacao-texto">"É pesado, mas impossível de ignorar – ele manda verdades como poucos." </p>
+                    <span class="avaliacao-data">23/03/2023</span>
+                </div>
+               
+                <div class="avaliacao-item">
+                    <div class="avaliacao-topo">
+                        <span class="avaliacao-nome">Patrícia Nogueira</span>
+                        <div class="avaliacao-estrelas">★★★★☆</div>
+                    </div>
+                    <p class="avaliacao-texto">"É pesado, mas impossível de ignorar – ele manda verdades como poucos." </p>
+                    <span class="avaliacao-data">02/03/2024</span>
+                </div>
+ 
+ 
+                <div class="avaliacao-item">
+                    <div class="avaliacao-topo">
+                        <span class="avaliacao-nome">Carlos Souza</span>
+                        <div class="avaliacao-estrelas">★★★★★</div>
+                    </div>
+                    <p class="avaliacao-texto">"Disco essencial para qualquer colecionador. A qualidade do vinil é excelente e o álbum é atemporal."</p>
+                    <span class="avaliacao-data">22/06/2023</span>
+                </div>
+            </div>
+            
+          </main>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+        <section class="Contato" id="Contato">
+            <div class="meio-contato">
+                <h3>Contato</h3>
+                <a href="https://www.instagram.com/gpbmulletss/" target="_blank" class="link-instagram">
+                    Nos envie uma mensagem
+                </a>
+            </div>
+            
+            <div class="meio-contato">
+                <h3>Explorar</h3>
+                <li><a href="http://127.0.0.1:5500/Home/index.html">Início</a></li>
+                <li><a href="http://127.0.0.1:5500/Tela_Login/login.html">Entrar</a></li>
+            </div>
+
+            <div class="meio-contato">
+                <h3>Shopping</h3>
+                <li><a href="#" id="footer-generos">Gêneros</a></li>
+                <li><a href="#" id="footer-artistas">Artistas</a></li>
+                <li><a href="/Carrinho/cart.html">Carrinho</a></li>
+            </div>
+    
+        </section>
+        </main>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            const btnGeneros = document.getElementById('btn-generos');
+            const submenuGeneros = document.getElementById('submenu-generos');
+            const btnArtistas = document.getElementById('btn-artistas');
+            const submenuArtistas = document.getElementById('submenu-artistas');
+    
+        submenuGeneros.style.display = 'none';
+        submenuArtistas.style.display = 'none';
+    
+            btnGeneros.addEventListener('click', (event) => {
+                event.preventDefault();
+                submenuGeneros.style.display = submenuGeneros.style.display === 'block' ? 'none' : 'block';
+            });
+    
+            btnArtistas.addEventListener('click', (event) => {
+                event.preventDefault(); 
+                submenuArtistas.style.display = submenuArtistas.style.display === 'block' ? 'none' : 'block';
+            });
+    
+            document.addEventListener('click', (event) => {
+                if (!btnGeneros.contains(event.target) && !submenuGeneros.contains(event.target)) {
+                    submenuGeneros.style.display = 'none';
+                }
+                if (!btnArtistas.contains(event.target) && !submenuArtistas.contains(event.target)) {
+                    submenuArtistas.style.display = 'none';
+                }
+    
+                document.getElementById('footer-artistas').addEventListener('click', (event) => {
+        event.preventDefault();
+        
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+        
+        setTimeout(() => {
+            submenuArtistas.style.display = 'block';
+        }, 500);
+    });
+            });
+    
+            document.getElementById('footer-generos').addEventListener('click', (event) => {
+        event.preventDefault();
+        
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+        
+        setTimeout(() => {
+            submenuGeneros.style.display = 'block';
+        }, 500);
+    });
+    
+        </script>
+    
+    </body>
+    
+    </html>

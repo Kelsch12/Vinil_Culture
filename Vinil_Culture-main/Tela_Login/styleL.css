@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #5b7383;
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #ecf0f1;
+    color: #5b7383;
+    margin-bottom: 15px;
+}
+
+.email input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #ecf0f1;
+    color: #5b7383;
+}
+
+.senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #ecf0f1;
+    color: #5b7383;
+    margin-top: 15px;
+}
+
+.entrar input {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5b7383;
+    color: #ffffff;
+}
+
+.entrar:hover {
+    cursor: pointer;
+    transform: scaleY(1.02);
+}
+
+input::placeholder {
+    color: #7e8d8a;
+}
+
+h1 {
+    color: #5b7383;
+}
+
+.caixa {
+    margin-top: 159px;
+}
+
+.caixa img {
+    width: 170px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.caixa {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 40px 30px;
+    width: 390px;
+    margin: 170px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
