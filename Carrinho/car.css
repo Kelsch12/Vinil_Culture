@@ -1,213 +1,4 @@
 body {
-<<<<<<< HEAD
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff;
-    color: #5b7383;
-  }
-  
-  .main-container {
-    max-width: 1100px;
-    margin: 40px auto;
-    padding: 5px;
-  }
-  
-  .titulo {
-    font-size: 23px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .carrinho-e-resumo {
-    display: flex;
-    gap: 40px;
-  }
-  
-  .carrinho {
-    flex: 4;
-  }
-  
-  .item {
-    display: flex;
-    align-items: center;
-    border-top: 1px solid #5b7383;
-    padding: 30px 0;
-  }
-  
-  .item img {
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    margin-right: 30px;
-  }
-  
-  .info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .genero {
-    font-size: 15px;
-    color: #5b7383;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .titulo-album {
-    font-size: 27px;
-    font-weight: bold;
-  }
-  
-  .quantidade {
-    display: flex;
-    align-items: center;
-    margin-right: 25px;
-  }
-  
-  .quantidade button {
-    width: 28px;
-    height: 26px;
-    background: none;
-    border: 1px solid #ccc;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .quantidade input {
-    width: 30px;
-    height: 25px;
-    text-align: center;
-    border: 1px solid #ccc;
-    margin: 0 5px;
-    background: #fff;
-  }
-  
-  .preco {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
-  .resumo {
-    flex: 1;
-    background-color: #5b7383;
-    color: white;
-    padding: 25px;
-    height: fit-content;
-    font-weight: bold;
-  }
-  
-  .resumo h4 {
-    margin-top: 0;
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .resumo p {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 20px;
-    font-weight: bold;
-  }
-  
-  .finalizar {
-    background-color: #d4d9e0;
-    color: #5b7383;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    font-weight: bold;
-    margin-top: 20px; 
-    cursor: pointer;
-  }
-  
-  .finalizar:hover {
-    background-color: #e4ecf1;
-    transform: scaleY(1.05);
-}
-
-  .voltar {
-    display: block;
-    margin-top: 10px;
-    color: #5b7383;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-
-  .voltar:hover {
-    transform: scaleY(1.11);
-}
-
-
-/* Cabeçalho Baixo*/
-
-#Contato {
-    display: flex;
-    gap: 5rem;
-    justify-content: space-around;
-    background-color: #5b7383;
-    padding: 8rem;
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-}
-
-.meio-contato h3 {
-    color: #fff;
-    font-size: 23px;
-    margin-bottom: 1.6rem;
-}
-
-.meio-contato h5 {
-    font-size: 15px;
-    font-weight: 600;
-    color: #ffffff;
-}
-
-.meio-contato li {
-    margin-bottom: 15px;
-}
-
-.meio-contato li a {
-    display: block;
-    color: #ffffff;
-    font-weight: 600;
-    transition: all .35s ease;
-}
-
-main {
-    margin-top: 140px;
-}
-
-.link-instagram {
-    color: white;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-    display: inline-block;
-}
-
-.link-instagram:hover {
-    transform: scale(1.2);
-}
-
-.submenu li {
-    padding: 10px;
-}
-
-.submenu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
-
-.submenu li a:hover {
-    text-decoration: underline;
-=======
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -349,96 +140,11 @@ main {
 
 .voltar:hover {
   transform: scaleY(1.11);
->>>>>>> b480305 (carrinho)
 }
 
 /* cabeçalho cima*/
 
 header {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1rem;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    position: fixed;
-    background: transparent;
-    transition: all .35s ease;
-    background-color: #fff;
-    padding: 14px 14%;
-}
-
-.logo {
-    font-weight: 500;
-    font-size: 1rem;
-}
-
-.cabeçalho-link {
-    display: flex;
-    gap: 3rem;
-}
-
-.cabeçalho-link a {
-    color: #5b7383;
-    font-weight: 700;
-    transition: 0.3s;
-}
-
-.cabeçalho-link a:hover {
-    color: #5b7383;
-}
-
-top-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 14px 5%;
-    background-color: #ffffff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo img {
-    height: 90px;
-    max-height: 100px;
-    object-fit: contain;
-}
-
-.logo img:hover {
-    transform: scale(1.1);
-}
-
-.search-bar {
-    display: flex;
-    align-items: center;
-    background-color: #f0ecf7;
-    padding: 8px 12px;
-    border-radius: 20px;
-    flex: 1;
-    max-width: 600px;
-    margin: 0 2rem;
-}
-
-.search-bar input {
-    border: none;
-    background: transparent;
-    outline: none;
-    margin: 0 8px;
-    flex: 1;
-    font-size: 0.95rem;
-    color: #5b7383;
-}
-
-.search-bar .icon-search:hover {
-    transform: scale(1.2);
-=======
   display: flex;
   justify-content: space-around;
   padding-top: 1rem;
@@ -521,87 +227,18 @@ top-header {
 
 .search-bar .icon-search:hover {
   transform: scale(1.2);
->>>>>>> b480305 (carrinho)
 }
 
 .icon-search,
 .header-icons ion-icon {
-<<<<<<< HEAD
-    color: #5b7383;
-    font-size: 1.3rem;
-    cursor: pointer;
-    transition: transform 0.3s;
-=======
   color: #5b7383;
   font-size: 1.3rem;
   cursor: pointer;
   transition: transform 0.3s;
->>>>>>> b480305 (carrinho)
 }
 
 
 .header-icons {
-<<<<<<< HEAD
-    display: flex;
-    gap: 20px;
-}
-
-.header-icons ion-icon {
-    transition: transform 0.3s;
-    font-size: 2rem;
-}
-
-.header-icons .icon-person:hover {
-    transform: scale(1.2);
-}
-
-.header-icons .icon-cart:hover {
-    transform: scale(1.2);
-}
-
-.menu-bar {
-    background-color: #5b7383;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.menu-bar {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #5b7383;
-    z-index: 999;
-    padding: 30px 0;
-}
-
-.menu-bar .logo {
-    height: 110px;
-    object-fit: contain;
-}
-
-.menu-bar ul {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu-bar a {
-    color: white;
-    font-weight: bold;
-    font-size: 0.95rem;
-    text-decoration: none;
-}
-
-.menu-bar a:hover {
-    text-decoration: underline;
-=======
   display: flex;
   gap: 20px;
 }
@@ -661,7 +298,6 @@ top-header {
 
 .menu-bar a:hover {
   text-decoration: underline;
->>>>>>> b480305 (carrinho)
 }
 
 .submenu {
@@ -690,8 +326,6 @@ top-header {
 
 main {
   margin-top: 140px;
-<<<<<<< HEAD
-=======
 }
 
 /* Resumo */
@@ -704,9 +338,7 @@ main {
   width: 330px;
   height: fit-content;
   margin-left: 20px;
-  /* Espaço do carrinho */
   position: relative;
-  /* Mantém o fluxo normal */
 }
 
 .resumo-compra h2 {
@@ -717,7 +349,6 @@ main {
   gap: 20px;
 }
 
-/* ELEMENTOS INTERNOS COMPACTOS */
 .info-compra {
   display: flex;
   flex-direction: column;
@@ -731,7 +362,6 @@ main {
 
 }
 
-/* FRETE */
 .opcoes-frete {
   display: flex;
   flex-direction: column;
@@ -745,7 +375,6 @@ main {
   font-size: 14px;
 }
 
-/* PAGAMENTO */
 .opcoes-pagamento {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -767,7 +396,6 @@ main {
   border: 1px solid white;
 }
 
-/* PARCELAMENTO FUNCIONAL */
 .opcoes-parcelas {
   display: flex;
   flex-wrap: wrap;
@@ -788,7 +416,7 @@ main {
   border: 1px solid white;
 }
 
-/* TOTAL */
+
 .total {
   display: flex;
   justify-content: space-between;
@@ -798,7 +426,6 @@ main {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* BOTÃO */
 .btn-finalizar {
   width: 100%;
   padding: 10px;
@@ -820,5 +447,4 @@ main {
   display: flex;
   gap: 30px;
   align-items: flex-start;
->>>>>>> b480305 (carrinho)
 }
