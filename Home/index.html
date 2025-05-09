@@ -15,8 +15,7 @@
 <body>
 
     <div class="background">
-        <header>
-            <header class="top-header">
+        <header class="top-header">
                 <div class="logo">
                     <a href="http://127.0.0.1:5500/Home/index.html">
                         <img src="img/Vc.png" alt="Logo Vinil Culture">
@@ -33,12 +32,12 @@
                         <ion-icon class="icon-person" name="person-outline"></ion-icon>
                     </a>
                     <a href="/Carrinho/cart.html">
-                    <ion-icon class="icon-cart" name="cart-outline"></ion-icon>
+                        <ion-icon class="icon-cart" name="cart-outline"></ion-icon>
                     </a>
-            </header>
+                </div>       
         </header>
         <div class="menu-bar">
-            <img class="logo">
+            <img class="logo" src="/Home/img/Vc.png" alt="Logo Vinil Culture">
             <ul>
                 <li>
                     <a href="#" id="btn-generos">GÊNEROS</a>
@@ -65,16 +64,14 @@
                 <li><a href="https://www.instagram.com/gpbmulletss/">CONTATO</a></li>
             </ul>
         </div>
-        <main>
             <div class="Meio">
-  <h1>CLÁSSICOS QUE <br> NUNCA SAEM DE MODA</h1>
-  <a href="#rock"><button>Conferir</button></a>
-</div>
+                <h1>CLÁSSICOS QUE <br> NUNCA SAEM DE MODA</h1>
+                <button onclick="window.location.href='#rock'">Conferir</button>
+            </div>
     </div><!--text-cta-->
-    </section><!--cta-->
 
     <section id="rap">
-        <h1 style="color: #5b7383;">HIP-HOP/ RAP</h1>
+        <h2 style="color: #5b7383; font-size: 2em; font-weight: bold; text-align: center;">HIP-HOP/ RAP</h2>
         <div class="C_rap">
             <div class="rap">
                 <a href="http://127.0.0.1:5500/Comprar_disco/graduation.html">
@@ -129,7 +126,7 @@
     </section>
 
     <section id="rock">
-        <h1 style="color: #5b7383;">ROCK</h1>
+        <h3 style="color: #5b7383; font-size: 2em; font-weight: bold; text-align: center;">ROCK</h3> 
         <div class="C_rock">
             <div class="rock">
                 <a href="http://127.0.0.1:5500/Comprar_disco/dk.html">
@@ -190,23 +187,25 @@
                 Nos envie uma mensagem
             </a>
         </div>
-        </div>
 
-        <div class="meio-contato">
-            <h3>Explorar</h3>
+    <div class="meio-contato">
+        <h3>Explorar</h3>
+        <ul>
             <li><a href="http://127.0.0.1:5500/Home/index.html">Início</a></li>
             <li><a href="http://127.0.0.1:5500/Tela_Login/login.html">Entrar</a></li>
-        </div>
+        </ul>
+    </div>
 
-        <div class="meio-contato">
-            <h3>Shopping</h3>
+     <div class="meio-contato">
+        <h3>Shopping</h3>
+        <ul>
             <li><a href="#" id="footer-generos">Gêneros</a></li>
             <li><a href="#" id="footer-artistas">Artistas</a></li>
             <li><a href="/Carrinho/cart.html">Carrinho</a></li>
-        </div>
+        </ul>
+    </div>
 
     </section>
-    </main>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -216,8 +215,8 @@
         const btnArtistas = document.getElementById('btn-artistas');
         const submenuArtistas = document.getElementById('submenu-artistas');
 
-	submenuGeneros.style.display = 'none';
-	submenuArtistas.style.display = 'none';
+        submenuGeneros.style.display = 'none';
+        submenuArtistas.style.display = 'none';
 
         btnGeneros.addEventListener('click', (event) => {
             event.preventDefault();
@@ -225,7 +224,7 @@
         });
 
         btnArtistas.addEventListener('click', (event) => {
-            event.preventDefault(); 
+            event.preventDefault();
             submenuArtistas.style.display = submenuArtistas.style.display === 'block' ? 'none' : 'block';
         });
 
@@ -238,31 +237,31 @@
             }
 
             document.getElementById('footer-artistas').addEventListener('click', (event) => {
-    event.preventDefault();
-    
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-    
-    setTimeout(() => {
-        submenuArtistas.style.display = 'block';
-    }, 500);
-});
+                event.preventDefault();
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+
+                setTimeout(() => {
+                    submenuArtistas.style.display = 'block';
+                }, 500);
+            });
         });
 
         document.getElementById('footer-generos').addEventListener('click', (event) => {
-    event.preventDefault();
-    
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-    
-    setTimeout(() => {
-        submenuGeneros.style.display = 'block';
-    }, 500);
-});
+            event.preventDefault();
+
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+            setTimeout(() => {
+                submenuGeneros.style.display = 'block';
+            }, 500);
+        });
 
     </script>
 
