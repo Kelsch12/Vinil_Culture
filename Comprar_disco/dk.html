@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="header-icons">
-                    <a href="http://127.0.0.1:5500/Tela_Login/cadastro.html">
+                    <a href="http://127.0.0.1:5500/Tela_Login/cadastro.html"></a>
                     <a href="/Tela_Login/login.html">
                         <ion-icon class="icon-person" name="person-outline"></ion-icon>
                     </a>
@@ -37,7 +37,7 @@
                 </div>
             </header>
             <div class="menu-bar">
-                <img class="logo">
+                <img class="logo" src="img/img/Vc.png" alt="Logo Vinil Culture">
                 <ul>
                     <li>
                         <a href="#" id="btn-generos">GÊNEROS</a>
@@ -69,7 +69,7 @@
             <div class="container-disco">
               <!-- Coluna Esquerda: Imagem do Álbum -->
               <div class="coluna-esquerda">
-                <img src="img\img/dk.jpg" alt="Capa do Álbum" class="capa-album" id="album-image">
+                <img src="img/img/dk.jpg" alt="Capa do Álbum" class="capa-album" id="album-image">
                 <button class="btn-alterar-imagem" onclick="alterarImagem()">Alternar Imagem</button>
               </div>
               <!-- Coluna Direita: Informações do Produto -->
@@ -77,7 +77,7 @@
                 <h2>The Dark Side of The Moon - Pink Floyd</h2>
                 <h3><strong>R$450</strong></h3>
           
-                <button class="btn-comprar" href="#carrinho">Adicionar ao Carrinho</button>
+                <button class="btn-comprar">Adicionar ao Carrinho</button>
 
                 <p><br><strong>Artista:</strong>Pink Floyd</p>
                 <p><strong>Gênero:</strong> Rock</p>
@@ -129,8 +129,6 @@
                 </div>
             </div>
 
-          </main>
-
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         
@@ -144,15 +142,21 @@
             
             <div class="meio-contato">
                 <h3>Explorar</h3>
-                <li><a href="http://127.0.0.1:5500/Home/index.html">Início</a></li>
-                <li><a href="http://127.0.0.1:5500/Tela_Login/login.html">Entrar</a></li>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Home/index.html">Início</a></li>
+                    <li><a href="http://127.0.0.1:5500/Tela_Login/login.html">Entrar</a></li>
+                </ul>
+                
             </div>
 
             <div class="meio-contato">
                 <h3>Shopping</h3>
-                <li><a href="#" id="footer-generos">Gêneros</a></li>
-                <li><a href="#" id="footer-artistas">Artistas</a></li>
-                <li><a href="/Carrinho/cart.html">Carrinho</a></li>
+                <ul>
+                    <li><a href="#" id="footer-generos">Gêneros</a></li>
+                    <li><a href="#" id="footer-artistas">Artistas</a></li>
+                    <li><a href="/Carrinho/cart.html">Carrinho</a></li>
+                </ul>
+                
             </div>
     
         </section>
@@ -231,7 +235,8 @@
     });
     
         </script>
-    
+
+    </div>
     </body>
     
     </html>
