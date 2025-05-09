@@ -98,24 +98,22 @@ header {
   }
 
 .btn-alterar-imagem {
-    align-self: flex-start;
+    align-self: center;
     margin-top: 20px;
-    margin-left: 14px;
-    padding: 10px 308px; 
+    padding: 10px 310px; 
     background-color: #5b7383;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.3s;
-    text-align: left;
+    text-align: center; /* Centraliza o texto no botão */
 }
 
 .btn-alterar-imagem:hover {
     background-color: #879fb1;
 }
 
-/* Estilos para a nova seção de avaliações */
 .secao-avaliacoes {
     margin-top: 40px;
     padding: 25px;

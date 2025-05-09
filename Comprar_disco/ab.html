@@ -166,6 +166,22 @@
         </main>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+        <script>
+            function alterarImagem() {
+                const albumImage = document.getElementById('album-image');
+                const novaImagem = "img/img/ab-back.jpg";
+                const imagemAtual = "img/img/ab.jpg";
+
+                if (albumImage.src.includes("ab.jpg")) {
+                    albumImage.src = novaImagem;
+                } else {
+                    albumImage.src = imagemAtual;
+                }
+            }
+        </script>
+
+
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <script>
             const btnGeneros = document.getElementById('btn-generos');
