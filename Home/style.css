@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+    width: 100%;
+}
 .background {
     background-image: url(img/backk.png);
     background-repeat: no-repeat;
